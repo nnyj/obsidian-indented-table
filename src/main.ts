@@ -2,8 +2,8 @@ import { Plugin } from 'obsidian';
 import { ViewPlugin, Decoration, EditorView, ViewUpdate, DecorationSet } from '@codemirror/view';
 import { Range } from '@codemirror/state';
 
-const RE_ROW = /^\s+\|(.+)\|\s*$/;
-const RE_SEP = /^\s+\|[\s:|-]+\|\s*$/;
+const RE_ROW = /^\s*\|(.+)\|\s*$/;
+const RE_SEP = /^\s*\|[\s:|-]+\|\s*$/;
 
 function pipeRange(line: { from: number; text: string }): [number, number] {
   const first = line.text.indexOf('|');

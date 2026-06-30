@@ -7,6 +7,7 @@ Styles pipe tables nested inside list items in Obsidian's live preview. Obsidian
 - Hides separator row (`----`)
 - Bold header with background
 - Faded pipe characters
+- Monospace font forced on table regions (fixes proportional font on Android)
 - No-wrap on table lines (prevents line breaking mid-row)
 - Row borders scoped to table width
 - No settings, just enable and it works

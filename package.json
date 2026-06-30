@@ -1,6 +1,6 @@
 {
   "name": "obsidian-indented-table",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Renders markdown pipe tables that are indented inside list items.",
   "main": "main.js",
   "type": "module",
