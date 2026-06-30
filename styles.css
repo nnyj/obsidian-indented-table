@@ -1,0 +1,5 @@
+.it-nowrap { white-space: nowrap !important; }
+.it-header { background: var(--background-secondary) !important; font-weight: bold !important; }
+.it-sep { display: none !important; }
+.it-row { border-bottom: 1px solid var(--background-modifier-border-hover, rgba(128,128,128,0.15)) !important; }
+.it-pipe { color: var(--text-faint) !important; }
