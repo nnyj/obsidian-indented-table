@@ -1,5 +1,5 @@
-.it-nowrap { white-space: nowrap !important; font-family: monospace !important; }
-.it-header { background: var(--background-secondary) !important; font-weight: bold !important; }
-.it-sep { display: none !important; }
-.it-row { border-bottom: 1px solid var(--background-modifier-border-hover, rgba(128,128,128,0.15)) !important; }
-.it-pipe { color: var(--text-faint) !important; }
+.markdown-source-view.mod-cm6 .cm-line.it-nowrap { white-space: nowrap; font-family: monospace; }
+.markdown-source-view.mod-cm6 .cm-line .it-header { background: var(--background-secondary); font-weight: bold; }
+.markdown-source-view.mod-cm6 .cm-line.it-sep { display: none; }
+.markdown-source-view.mod-cm6 .cm-line .it-row { border-bottom: 1px solid var(--background-modifier-border-hover, rgba(128,128,128,0.15)); }
+.markdown-source-view.mod-cm6 .cm-line .it-pipe { color: var(--text-faint); }
