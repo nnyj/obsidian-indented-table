@@ -3,3 +3,8 @@
 .markdown-source-view.mod-cm6 .cm-line.it-sep { display: none; }
 .markdown-source-view.mod-cm6 .cm-line .it-row { border-bottom: 1px solid var(--background-modifier-border-hover, rgba(128,128,128,0.15)); }
 .markdown-source-view.mod-cm6 .cm-line .it-pipe { color: var(--text-faint); }
+.markdown-source-view.mod-cm6 .it-widget { padding-left: var(--it-indent); }
+.markdown-source-view.mod-cm6 .it-widget table { border-collapse: collapse; margin: 4px 0; }
+.markdown-source-view.mod-cm6 .it-widget th, .markdown-source-view.mod-cm6 .it-widget td { border: 1px solid var(--table-border-color); padding: 2px 8px; vertical-align: top; cursor: text; }
+.markdown-source-view.mod-cm6 .it-widget th { background: var(--table-header-background, var(--background-secondary)); font-weight: bold; }
+.markdown-source-view.mod-cm6 .it-widget .it-editing { outline: 1px solid var(--interactive-accent); white-space: pre-wrap; }

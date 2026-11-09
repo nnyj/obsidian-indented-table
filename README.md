@@ -9,10 +9,12 @@
 
 </div>
 
-Styles pipe tables nested inside list items in Obsidian live preview. Obsidian ignores indented tables, rendering them as plain text — this plugin makes them readable without changing the markdown.
+Renders pipe tables nested inside list items in Obsidian live preview. Obsidian ignores indented tables and shows them as plain text, this plugin makes them readable without changing the markdown.
 
 ## Features
 
+- Live preview: renders indented tables as HTML tables, click a cell to edit its markdown, Enter saves, Escape cancels, Tab moves on
+- Cells render markdown, internal links open on click
 - Hides separator row
 - Bold header with background fill
 - Faded pipe characters
@@ -28,7 +30,8 @@ Manual: download `main.js`, `manifest.json`, `styles.css` from [Releases](https:
 
 ## How it works
 
-Obsidian blocks widget and replace decorations from plugins. The plugin uses CM6 mark and line decorations with CSS: `Decoration.line()` for no-wrap and separator hiding, `Decoration.mark()` for header background, row borders, and pipe color, all scoped to table content width.
+- Rendered table: a `StateField` replaces the table lines with a block widget. CM6 rejects block widgets from a `ViewPlugin`.
+- Source styling: `Decoration.line()` for no-wrap and separator hiding, `Decoration.mark()` for header background, row borders, and pipe color.
 
 ## Build
 
